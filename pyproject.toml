@@ -10,7 +10,9 @@ requires-python = ">=3.12"
 dependencies = [
     "ipywidgets (>=8.1.6,<9.0.0)",
     "numpy (>=2.2.5,<3.0.0)",
-    "matplotlib (>=3.10.1,<4.0.0)"
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "torch (>=2.7.0,<3.0.0)",
+    "transformers (>=4.51.3,<5.0.0)"
 ]
 
 [tool.poetry]
